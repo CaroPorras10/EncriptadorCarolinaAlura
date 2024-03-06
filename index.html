@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <html lang="es">
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href="style.css"> 
+        <title>Encriptador Alura</title> 
+    </head>
+    
+    <body>
+        <h1> <strong>Encriptador Alura</strong> 
+        
+            <p>
+                <textarea name="TextoIngresado"  class="estiloTextoaerea" onfocus="Limpiar()"
+                id="textoIngresado" required onkeydown="return Validar(event);">Ingrese el texto que desea encriptar: </textarea>
+            </p>
+            
+            <input type="button" class="BotonE" value="ENCRIPTAR" onclick="fnencriptar()">
+            <input type="button" class="BotonD" value="DESENCRIPTAR" onclick="fndesencriptar()">
+            <input type="button" class="BotonL" value="LIMPIAR" onclick="Limpiar()">
+            <input type="button" class="BotonC" value="COPIAR" onclick= "Copiar()">
+        </h1>
+         <script src="EncriptadorAlura.js" defer></script>
+    </body>
