@@ -50,8 +50,6 @@ function Limpiar() {
    BtnEncriptar.disabled=false
    BtnCopiar.disabled=true;
 }
-  
-
 function Validar(event){
     var letra = event.keyCode;
     if (letra >64 && letra <91 || letra == 32 || letra== 8){ 
